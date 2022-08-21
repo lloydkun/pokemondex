@@ -3,11 +3,12 @@ import { useState, useEffect } from 'react'
 import pokemons from '../data/pokedex.json'
 import design from '../data/Design.json'
 import PokemonContainer from '../components/PokemonContainer'
+import { useParams, Route, Routes, Navigate } from 'react-router-dom'
 
-import { useParams } from 'react-router-dom'
+
 function MainPage() {
-    let { pokemon_name } = useParams()
-    const [currentPokemonName, setCurrentPokemonName] = useState(pokemon_name ? pokemon_name : 'Bulbasaur')
+    // let { pokemon_name } = useParams()
+    const [currentPokemonName, setCurrentPokemonName] = useState('Bulbasaur')
     const [pokemonData, setPokemonData] = useState(getPokemonInfo())
     const [searchQuery, setSearchQuery] = useState("");
     useEffect(() => {
@@ -33,17 +34,19 @@ function MainPage() {
         }
     }
 
+
     function handleChange(event) {
         setSearchQuery(event.target.value)
     }
+    function handleClick(event) {
+        // setCurrentPokemonName(event.target.value)
+        console.log(event.target.name)
+    }
 
-    const left_gradient = pokemonData.pokemon_design.left_gradient;
-    const right_gradient = pokemonData.pokemon_design.right_gradient;
-    const text_color = pokemonData.pokemon_design.text_color;
 
     return (
-        <div style={{ background: `linear-gradient(to right,  ${left_gradient} ,${right_gradient})`, color: `${text_color}` }} className="main">
-            <PokemonContainer pokemonData={pokemonData} searchQuery={searchQuery} handleChange={handleChange} />
+        <div style={{ background: `linear-gradient(to right,  ${pokemonData.pokemon_design.left_gradient} ,${pokemonData.pokemon_design.right_gradient})`, color: `${pokemonData.pokemon_design.text_color}` }} className="main">
+            <PokemonContainer pokemonData={pokemonData} searchQuery={searchQuery} setSearch={setSearchQuery} handleChange={handleChange} currentPokemonName={currentPokemonName} changePokemonName={setCurrentPokemonName} />
         </div>
     )
 }
