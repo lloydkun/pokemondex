@@ -1,0 +1,128 @@
+[
+    {
+        "type": "Normal",
+        "left_gradient": "#C9D6FF",
+        "right_gradient": "#E2E2E2",
+        "text_color": "#362B2B",
+        "icon": "normal.png"
+    },
+    {
+        "type": "Fighting",
+        "left_gradient": "#F46B45",
+        "right_gradient": "#EEA849",
+        "text_color": "#FFFFFF",
+        "icon": "fighting.png"
+    },
+    {
+        "type": "Flying",
+        "left_gradient": "#C9D6FF",
+        "right_gradient": "#E2E2E2",
+        "text_color": "#362B2B",
+        "icon": "flying.png"
+    },
+    {
+        "type": "Poison",
+        "left_gradient": "#6A3093",
+        "right_gradient": "#A044FF",
+        "text_color": "#FFFFFF",
+        "icon": "poison.png"
+    },
+    {
+        "type": "Ground",
+        "left_gradient": "#C38E70",
+        "right_gradient": "#E6B8A2",
+        "text_color": "#FFFFFF",
+        "icon": "ground.png"
+    },
+    {
+        "type": "Rock",
+        "left_gradient": "#C38E70",
+        "right_gradient": "#E6B8A2",
+        "text_color": "#FFFFFF",
+        "icon": "rock.png"
+    },
+    {
+        "type": "Bug",
+        "left_gradient": "#538D22",
+        "right_gradient": "#AAD576",
+        "text_color": "#FFFFFF",
+        "icon": "bug.png"
+    },
+    {
+        "type": "Ghost",
+        "left_gradient": "#606C88",
+        "right_gradient": "#3F4C6B",
+        "text_color": "#FFFFFF",
+        "icon": "ghost.png"
+    },
+    {
+        "type": "Steel",
+        "left_gradient": "#C9D6FF",
+        "right_gradient": "#E2E2E2",
+        "text_color": "#362B2B",
+        "icon": "steel.png"
+    },
+    {
+        "type": "Fire",
+        "left_gradient": "#CB2D3E",
+        "right_gradient": "#EF473A",
+        "text_color": "#FFFFFF",
+        "icon": "fire.png"
+    },
+    {
+        "type": "Water",
+        "left_gradient": "#66A6FF",
+        "right_gradient": "#89F7FE",
+        "text_color": "#FFFFFF",
+        "icon": "water.png"
+    },
+    {
+        "type": "Grass",
+        "left_gradient": "#0A9742",
+        "right_gradient": "#3CBA92",
+        "text_color": "#FFFFFF",
+        "icon": "grass.png"
+    },
+    {
+        "type": "Electric",
+        "left_gradient": "#FFB347",
+        "right_gradient": "#FFCC33",
+        "text_color": "#362B2B",
+        "icon": "electric.png"
+    },
+    {
+        "type": "Ice",
+        "left_gradient": "#0072FF",
+        "right_gradient": "#00C6FF",
+        "text_color": "#FFFFFF",
+        "icon": "ice.png"
+    },
+    {
+        "type": "Dragon",
+        "left_gradient": "#0072FF",
+        "right_gradient": "#00C6FF",
+        "text_color": "#FFFFFF",
+        "icon": "dragon.png"
+    },
+    {
+        "type": "Dark",
+        "left_gradient": "#606C88",
+        "right_gradient": "#3F4C6B",
+        "text_color": "#FFFFFF",
+        "icon": "dark.png"
+    },
+    {
+        "type": "Fairy",
+        "left_gradient": "#D9A7C7",
+        "right_gradient": "#FFFCDC",
+        "text_color": "#362B2B",
+        "icon": "fairy.png"
+    },
+    {
+        "type": "Psychic",
+        "left_gradient": "#F66F71",
+        "right_gradient": "#FE9F92",
+        "text_color": "#FFFFFF",
+        "icon": "psychic.png"
+    }
+]
